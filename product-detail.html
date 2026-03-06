@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail - E-Shopping</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body >
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">E-Shopping</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="./about.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="/css/index2.html">Management</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="product-detail">
+        <div class="container">
+            <div id="productDetail"></div>
+            <div id="tableproduct">
+                <table >
+                    <tr >
+                        <th><img src="./product/download (1).jfif"><br>price : 57$</th>
+                        <th><img src="./product/download (10).jfif"><br>price : 22$</th>
+                        <th><img src="./product/download.jfif"><br> price : 30$</th>
+                        <th><img src="./product/download (8).jfif"> price : 60$</th>
+                       
+                        <tr>
+                            <th><img src="./product/download (9).jfif"><br> price : 45$</th>
+                            <th><img src="./product/download (10).jfif"><br> price : 67$</th>
+                            <th><img src="./product/download (11).jfif"><br> price : 56$</th>
+                            <th><img src="./product/download (7).jfif"> <br>price : 70$</th>
+
+                            <tr>
+                                <th><img src="./product/download (12).jfif"><br> price : 56$</th>
+                                <th><img src="./product/download (13).jfif"><br> price : 58$</th>
+                                <th><img src="./product/download (14).jfif"><br> price : 90$</th>
+                                <th><img src="./product/download (15).jfif"><br> price : 78 </th>
+                            </tr>
+                        </tr>
+                    </tr>
+
+                </table>
+            </div>
+            <div class="comments-section">
+                <h3>Customer Comments</h3>
+                <div id="commentsList"></div>
+                <form id="commentForm">
+                    <textarea id="commentText" placeholder="Write your comment..." required></textarea>
+                    <button type="submit" class="btn">Submit Comment</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 E-Shopping. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/product-detail.js"></script>
+</body>
+</html>

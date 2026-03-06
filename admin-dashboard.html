@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - E-Shopping</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">E-Shopping</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="admin-dashboard.html">Dashboard</a></li>
+                <li><a href="logout.html">Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="dashboard">
+        <div class="container">
+            <h2>Admin Dashboard</h2>
+            <div class="dashboard-content">
+                <div class="stats">
+                    <div class="stat-card">
+                        <h3>Total Users</h3>
+                        <p id="totalUsers">0</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Total Products</h3>
+                        <p id="totalProducts">0</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Total Orders</h3>
+                        <p id="totalOrders">0</p>
+                    </div>
+                </div>
+                <div class="manage-section">
+                    <h3>Manage Users</h3>
+                    <div id="usersList"></div>
+                </div>
+                <div class="manage-section">
+                    <h3>Manage Products</h3>
+                    <div id="productsList"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 E-Shopping. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/admin.js"></script>
+</body>
+</html>

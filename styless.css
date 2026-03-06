@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color:white;
+    background: black;
+    
+    
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.navbar {
+    background: #2c3e50;
+    color: white;
+    padding: 1rem 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #3498db;
+}
+
+.hero {
+    background-image: url("");
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    background: #3498db;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;}
+
+.line{
+      text-transform: capitalize;
+      font-weight: bold;
+      font-size: larger 30px;
+      border: solid rgb(30, 5, 54);
+}
+
+.text{
+    border:solid white 2px ;
+    padding: 20px;
+}
+
+#buy{
+    background-color: white;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+#buy:hover{
+    color: #3498db;
+}
+#buy:active{
+        color: green;
+}
+
+#reset{
+    background-color: white;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    text-transform: capitalize;
+    font-weight: 700;
+    }
+#reset:hover{
+     color: #3498db;
+}
+#reset:active{
+    color: green;
+}
+
+#now{
+  background-color: white;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+#now:hover{
+    color: #3498db;
+}
+#now:active{
+     color: green;
+}
+
+#whatsapp{
+    background-color: white;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    text-transform: capitalize;
+    font-weight: 700;
+    border:solid green 5px ;
+    
+}
+#whatsapp:hover{
+     color: #3498db;
+}
+#whatsapp:active{
+    color: green; 
+}
+.find{
+    border: solid seashell 2px;
+    padding: 30px;
+    text-align: center;
+    background-color: aliceblue;
+    color: black;
+}

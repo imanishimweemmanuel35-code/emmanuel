@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color:white;
+    text-decoration: none;
+    
+    
+    
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.navbar {
+    background: #2c3e50;
+    color: white;
+    padding: 1rem 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #3498db;
+}
+
+.navigations{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    text-transform: capitalize;
+    border:white 10px;
+    padding: 30px;
+    font-family: inherit;
+    background-color: black;
+    color: white;
+    
+}
+
+.display{
+    display: flex;
+}
+
+.navigations:hover{
+    color: fuchsia;
+}
+.navigations:hover{
+    color: blue;
+}
+
+#head{
+    text-decoration: none;
+    text-transform: capitalize;
+    background: black;
+}
+
+h2 .h3 .h4{
+    text-decoration: none;
+    text-transform: capitalize;
+    background: white;
+
+}
+
+.forms{
+    text-align: center;
+    margin-left: 40px;
+    padding: 10px;
+    margin-top: 20px;
+    border: solid darkblue 10px;
+    background: teal;
+    color: beige;
+    text-decoration: none;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+footer{
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 30px;
+}
+
+#button{
+    text-decoration: none;
+    font-size: 35px;
+    border:solid black 2px;
+    padding:5px ;
+}
+
+#button1{
+     text-decoration: none;
+    font-size: 35px;
+    border:solid black 2px;
+    padding:5px ;
+}
+#button:hover{
+    color: green;
+}
+#button:active{
+    color: blue;
+}
+#button1:hover{
+
+    color: green;
+}
+#button1:active{
+    color: blue;
+}

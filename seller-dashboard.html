@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seller Dashboard - E-Shopping</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">E-Shopping</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="seller-dashboard.html">Dashboard</a></li>
+                <li><a href="logout.html">Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="dashboard">
+        <div class="container">
+            <h2>Seller Dashboard</h2>
+            <div class="dashboard-content">
+                <div class="upload-section">
+                    <h3>Upload Product</h3>
+                    <form id="uploadForm" action="php/upload-product.php" method="POST" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label for="productName">Product Name:</label>
+                            <input type="text" id="productName" name="productName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="productPrice">Price:</label>
+                            <input type="number" id="productPrice" name="productPrice" step="0.01" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="productDescription">Description:</label>
+                            <textarea id="productDescription" name="productDescription" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="productLocation">Location:</label>
+                            <input type="text" id="productLocation" name="productLocation" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="productImage">Product Image:</label>
+                            <input type="file" id="productImage" name="productImage" accept="image/*" required>
+                        </div>
+                        <button type="submit" class="btn">Upload Product</button>
+                    </form>
+                </div>
+                <div class="products-list">
+                    <h3>My Products</h3>
+                    <div id="sellerProducts"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 E-Shopping. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/seller.js"></script>
+</body>
+</html>
